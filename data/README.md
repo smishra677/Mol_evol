@@ -1,7 +1,9 @@
 * Data preprocessing  
 `alignment.phylip` includes 119 spececies and 1 million columns for filtering.  
-`tree_119mammal.nwk` is the phylogeny given in the paper that published the dataset.  
-To analysis the data, IQTREE-2 is used  
+`tree_119mammal.nwk` is the phylogeny given in the [paper](https://academic.oup.com/gigascience/article/9/1/giz159/5695847#191021819) that published the dataset [dataset](https://bds.mpi-cbg.de/hillerlab/120MammalAlignment/Human120way/)  
+  
+  
+To analysis the data, [IQTREE-2](http://www.iqtree.org/doc/) is used  
 - Find the best substituion model  
 `~/bin/iqtree2 -s $seqfile -te $treefile -m MF -mset GTR -mfreq F -mrate E,I,G,I+G -nt AUTO --prefix model_selection`  
 - Estimate parameters with model selected from previous step  
