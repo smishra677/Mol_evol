@@ -1,0 +1,172 @@
+IQ-TREE multicore version 2.2.2.3 COVID-edition for Linux 64-bit built Feb 25 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    c26 (AVX2, FMA3, 251 GB RAM)
+Command: /N/u/moyu/Carbonate/bin/iqtree2 -s ../data/alignment.phylip -te ../data/tree_119mammal.nwk --scfl 1000 -m JC -o ornAna2 -blfix --prefix scfl_jc -redo
+Seed:    293796 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Mar 24 00:53:50 2023
+Kernel:  AVX+FMA - 1 threads (1 CPU cores detected)
+
+Reading alignment file ../data/alignment.phylip ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 2.28478 secs using 70.92% CPU
+WARNING: 102405 sites contain only gaps or ambiguous characters.
+Alignment has 119 sequences with 1023883 columns, 340099 distinct patterns
+239781 parsimony-informative, 141228 singleton sites, 642874 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.611325 secs using 99.99% CPU
+   1  HLaciJub1    86.41%    failed      0.00%
+   2  HLailFul1    85.87%    failed      0.00%
+   3  HLbalMys1    87.38%    failed      0.00%
+   4  HLbosInd1    88.42%    failed      0.00%
+   5  HLcamBac1    88.03%    failed      0.00%
+   6  HLcamDro1    87.90%    failed      0.00%
+   7  HLcamFer2    87.88%    failed      0.00%
+   8  HLcapHir2    87.89%    failed      0.00%
+   9  HLcasCan1    90.19%    failed      0.00%
+  10  HLcerEla1    92.22%    failed      0.00%
+  11  HLchoHof2    82.26%    failed      0.00%
+  12  HLdelLeu1    86.54%    failed      0.00%
+  13  HLdesRot1    92.83%    failed      0.00%
+  14  HLdipOrd2    94.80%    failed      0.00%
+  15  HLenhLut1    86.68%    failed      0.00%
+  16  HLequAsi1    85.22%    failed      0.00%
+  17  HLequCab3    86.00%    failed      0.00%
+  18  HLfukDam1    90.27%    failed      0.00%
+  19  HLhipArm1    89.27%    failed      0.00%
+  20  HLlycPic1    87.08%    failed      0.00%
+  21  HLmanJav1    82.35%    failed      0.00%
+  22  HLmarMar1    87.10%    failed      0.00%
+  23  HLmerUng1    93.01%    failed      0.00%
+  24  HLminNat1    93.01%    failed      0.00%
+  25  HLmusCar1    97.56%    failed      0.00%
+  26  HLmusPah1    97.58%    failed      0.00%
+  27  HLodoVir1    89.09%    failed      0.00%
+  28  HLorcOrc1    85.98%    failed      0.00%
+  29  HLoviAri4    87.67%    failed      0.00%
+  30  HLoviCan1    89.48%    failed      0.00%
+  31  HLpanPar1    86.49%    failed      0.00%
+  32  HLphaCin1    96.33%    failed      0.00%
+  33  HLpilTep1    68.20%    failed      0.00%
+  34  HLproCap2    89.42%    failed      0.00%
+  35  HLpteVam2    91.66%    failed      0.00%
+  36  HLrhiSin1    87.28%    failed      0.00%
+  37  HLturTru3    86.90%    failed      0.00%
+  38  ailMel1      85.94%    failed      0.00%
+  39  aotNan1      76.72%    failed      0.00%
+  40  balAcu1      85.65%    failed      0.00%
+  41  bisBis1      89.21%    failed      0.00%
+  42  bosMut1      89.68%    failed      0.00%
+  43  bosTau8      88.26%    failed      0.00%
+  44  bubBub1      88.24%    failed      0.00%
+  45  calJac3      74.04%    failed      0.00%
+  46  canFam3      86.79%    failed      0.00%
+  47  cavPor3      91.06%    failed      0.00%
+  48  cebCap1      75.19%    failed      0.00%
+  49  cerAty1      64.50%    failed      0.00%
+  50  cerSim1      86.02%    failed      0.00%
+  51  chiLan1      90.73%    failed      0.00%
+  52  chlSab2      64.44%    failed      0.00%
+  53  chrAsi1      94.21%    failed      0.00%
+  54  colAng1      67.50%    failed      0.00%
+  55  conCri1      96.54%    failed      0.00%
+  56  criGri1      97.88%    failed      0.00%
+  57  dasNov3      88.50%    failed      0.00%
+  58  echTel2      96.63%    failed      0.00%
+  59  eleEdw1      97.79%    failed      0.00%
+  60  eptFus1      95.23%    failed      0.00%
+  61  equPrz1      80.00%    failed      0.00%
+  62  eriEur2      98.85%    failed      0.00%
+  63  felCat8      87.02%    failed      0.00%
+  64  galVar1      76.58%    failed      0.00%
+  65  gorGor5      54.38%    failed      0.00%
+  66  hetGla2      87.77%    failed      0.00%
+  67  hg38         33.85%    failed      0.00%
+  68  jacJac1      97.75%    failed      0.00%
+  69  lepWed1      81.57%    failed      0.00%
+  70  lipVex1      85.73%    failed      0.00%
+  71  loxAfr3      89.92%    failed      0.00%
+  72  macFas5      64.24%    failed      0.00%
+  73  macNem1      62.82%    failed      0.00%
+  74  manLeu1      65.84%    failed      0.00%
+  75  manPen1      81.23%    failed      0.00%
+  76  mesAur1      97.79%    failed      0.00%
+  77  micMur3      84.07%    failed      0.00%
+  78  micOch1      97.59%    failed      0.00%
+  79  mm10         97.59%    failed      0.00%
+  80  monDom5      96.93%    failed      0.00%
+  81  musFur1      86.78%    failed      0.00%
+  82  myoBra1      94.04%    failed      0.00%
+  83  myoDav1      94.29%    failed      0.00%
+  84  myoLuc2      92.66%    failed      0.00%
+  85  nanGal1      96.29%    failed      0.00%
+  86  nasLar1      76.07%    failed      0.00%
+  87  neoSch1      86.29%    failed      0.00%
+  88  nomLeu3      65.01%    failed      0.00%
+  89  ochPri3      97.73%    failed      0.00%
+  90  octDeg1      91.78%    failed      0.00%
+  91  odoRosDiv1   85.29%    failed      0.00%
+  92  ornAna2      97.68%    failed      0.00%
+  93  oryAfe1      94.40%    failed      0.00%
+  94  oryCun2      93.00%    failed      0.00%
+  95  otoGar3      84.60%    failed      0.00%
+  96  panHod1      88.65%    failed      0.00%
+  97  panPan2      60.88%    failed      0.00%
+  98  panTig1      86.59%    failed      0.00%
+  99  panTro5      51.04%    failed      0.00%
+ 100  papAnu3      62.45%    failed      0.00%
+ 101  perManBai1   95.49%    failed      0.00%
+ 102  phyCat1      82.47%    failed      0.00%
+ 103  ponAbe2      62.59%    failed      0.00%
+ 104  proCoq1      91.06%    failed      0.00%
+ 105  pteAle1      89.75%    failed      0.00%
+ 106  rheMac8      65.89%    failed      0.00%
+ 107  rhiBie1      65.78%    failed      0.00%
+ 108  rhiRox1      66.29%    failed      0.00%
+ 109  rn6          97.39%    failed      0.00%
+ 110  rouAeg1      91.27%    failed      0.00%
+ 111  saiBol1      77.77%    failed      0.00%
+ 112  sarHar1      97.45%    failed      0.00%
+ 113  speTri2      87.33%    failed      0.00%
+ 114  susScr11     88.92%    failed      0.00%
+ 115  tarSyr2      75.82%    failed      0.00%
+ 116  triMan1      89.48%    failed      0.00%
+ 117  tupChi1      87.24%    failed      0.00%
+ 118  ursMar1      85.38%    failed      0.00%
+ 119  vicPac2      87.88%    failed      0.00%
+WARNING: 118 sequences contain more than 50% gaps/ambiguity
+****  TOTAL        85.17%  119 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000097667 for long alignment
+Checking for duplicate sequences: done in 0.598312 secs using 99.98% CPU
+Reading input tree file ../data/tree_119mammal.nwk ... rooted tree
+
+NOTE: 1312 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -6532383.803
+Optimal log-likelihood: -6532383.803
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.681 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -6532383.803
+Total tree length: 10.120
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 1.389 sec (0h:0m:1s)
+Total wall-clock time used: 1.773 sec (0h:0m:1s)
+Computing site concordance factor using likelihood...
+2958.596 sec
+Tree with site concordance factors written to scfl_jc.cf.tree
+Annotated tree (best viewed in FigTree) written to scfl_jc.cf.tree.nex
+Tree with branch IDs written to scfl_jc.cf.branch
+Concordance factors per branch printed to scfl_jc.cf.stat
+
+Analysis results written to: 
+  IQ-TREE report:                scfl_jc.iqtree
+  Maximum-likelihood tree:       scfl_jc.treefile
+  Screen log file:               scfl_jc.log
+
+Date and Time: Fri Mar 24 01:43:18 2023

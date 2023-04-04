@@ -1,0 +1,332 @@
+IQ-TREE 2.2.2.3 COVID-edition built Feb 25 2023
+
+Input file name: ../data/alignment.phylip
+User tree file name: ../data/tree_119mammal.nwk
+Type of analysis: tree reconstruction
+Random seed number: 293796
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 119 sequences with 1023883 nucleotide sites
+Number of constant sites: 642874 (= 62.7878% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 642874 (= 62.7878% of all sites)
+Number of parsimony informative sites: 239781
+Number of distinct site patterns: 340099
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -6532383.8032 (s.e. 9276.0469)
+Unconstrained log-likelihood (without tree): -9767788.1747
+Number of free parameters (#branches + #model parameters): 0
+Akaike information criterion (AIC) score: 13064767.6065
+Corrected Akaike information criterion (AICc) score: 13064767.6065
+Bayesian information criterion (BIC) score: 13064767.6065
+
+Total tree length (sum of branch lengths): 10.1199
+Sum of internal branch lengths: 3.4277 (33.8706% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ornAna2' is drawn at root
+
+                                                     +--HLaciJub1
+                                                  +--| (33.5)
+                                                  |  +--felCat8
+                                            +-----| (43.2)
+                                            |     |  +--HLpanPar1
+                                            |     +--| (34.8)
+                                            |        +--panTig1
+                                        +---| (37.1)
+                                        |   |        +---HLailFul1
+                                        |   |     +--| (37.8)
+                                        |   |     |  |  +--HLenhLut1
+                                        |   |     |  +--| (36.8)
+                                        |   |     |     +--musFur1
+                                        |   |  +--| (32.9)
+                                        |   |  |  |     +--ailMel1
+                                        |   |  |  |  +--| (39.6)
+                                        |   |  |  |  |  +--ursMar1
+                                        |   |  |  +--| (31.5)
+                                        |   |  |     |     +--lepWed1
+                                        |   |  |     |  +--| (32.9)
+                                        |   |  |     |  |  +--neoSch1
+                                        |   |  |     +--| (33.4)
+                                        |   |  |        +--odoRosDiv1
+                                        |   +--| (31.6)
+                                        |      |      +--HLlycPic1
+                                        |      +------| (43.1)
+                                        |             +--canFam3
+                                     +--| (34.4)
+                                     |  |         +--HLmanJav1
+                                     |  +---------| (43.3)
+                                     |            +--manPen1
+                                  +--| (31.5)
+                                  |  |        +--HLequAsi1
+                                  |  |  +-----| (36.9)
+                                  |  |  |     |  +--HLequCab3
+                                  |  |  |     +--| (32.3)
+                                  |  |  |        +--equPrz1
+                                  |  +--| (36.4)
+                                  |     +----cerSim1
+                               +--| (31.7)
+                               |  |     +---------HLdesRot1
+                               |  |  +--| (37.5)
+                               |  |  |  |  +-------HLminNat1
+                               |  |  |  +--| (34)
+                               |  |  |     |    +--eptFus1
+                               |  |  |     +----| (35)
+                               |  |  |          |     +--myoBra1
+                               |  |  |          |  +--| (33.5)
+                               |  |  |          |  |  +--myoLuc2
+                               |  |  |          +--| (33.5)
+                               |  |  |             +--myoDav1
+                               |  +--| (43.6)
+                               |     |     +----HLhipArm1
+                               |     |  +--| (34.6)
+                               |     |  |  +----HLrhiSin1
+                               |     +--| (33.7)
+                               |        |        +--HLpteVam2
+                               |        |     +--| (34.3)
+                               |        |     |  +--pteAle1
+                               |        +-----| (38)
+                               |              +---rouAeg1
+                            +--| (31.8)
+                            |  |              +--HLbalMys1
+                            |  |           +--| (37.2)
+                            |  |           |  +--balAcu1
+                            |  |        +--| (34.5)
+                            |  |        |  |        +--HLdelLeu1
+                            |  |        |  |     +--| (34.3)
+                            |  |        |  |     |  |  +--HLorcOrc1
+                            |  |        |  |     |  +--| (33.5)
+                            |  |        |  |     |     +--HLturTru3
+                            |  |        |  |  +--| (36.4)
+                            |  |        |  |  |  +--lipVex1
+                            |  |        |  +--| (32.6)
+                            |  |        |     +--phyCat1
+                            |  |     +--| (31.5)
+                            |  |     |  |                  +--HLbosInd1
+                            |  |     |  |               +--| (33.6)
+                            |  |     |  |               |  +--bosTau8
+                            |  |     |  |            +--| (34.1)
+                            |  |     |  |            |  |  +--bisBis1
+                            |  |     |  |            |  +--| (34.3)
+                            |  |     |  |            |     +--bosMut1
+                            |  |     |  |         +--| (34.5)
+                            |  |     |  |         |  +--bubBub1
+                            |  |     |  |      +--| (33.6)
+                            |  |     |  |      |  |     +--HLcapHir2
+                            |  |     |  |      |  |  +--| (32.9)
+                            |  |     |  |      |  |  |  |  +--HLoviAri4
+                            |  |     |  |      |  |  |  +--| (34.1)
+                            |  |     |  |      |  |  |     +--HLoviCan1
+                            |  |     |  |      |  +--| (34.4)
+                            |  |     |  |      |     +--panHod1
+                            |  |     |  +------| (41.9)
+                            |  |     |         |  +--HLcerEla1
+                            |  |     |         +--| (34.9)
+                            |  |     |            +--HLodoVir1
+                            |  |  +--| (31.1)
+                            |  |  |  +---------susScr11
+                            |  +--| (39.1)
+                            |     |             +--HLcamBac1
+                            |     |          +--| (33.6)
+                            |     |          |  +--HLcamFer2
+                            |     |       +--| (34.9)
+                            |     |       |  +--HLcamDro1
+                            |     +-------| (43.1)
+                            |             +--vicPac2
+                         +--| (30.4)
+                         |  |  +--------------conCri1
+                         |  +--| (50.5)
+                         |     +----------------------eriEur2
+                      +--| (40.8)
+                      |  |                 +---------HLcasCan1
+                      |  |              +--| (33.8)
+                      |  |              |  +-----------------HLdipOrd2
+                      |  |           +--| (36)
+                      |  |           |  |               +----------HLmerUng1
+                      |  |           |  |            +--| (33)
+                      |  |           |  |            |  |         +--HLmusCar1
+                      |  |           |  |            |  |      +--| (33.2)
+                      |  |           |  |            |  |      |  +--mm10
+                      |  |           |  |            |  |   +--| (34.1)
+                      |  |           |  |            |  |   |  +--HLmusPah1
+                      |  |           |  |            |  +---| (36.4)
+                      |  |           |  |            |      +------rn6
+                      |  |           |  |     +------| (33.6)
+                      |  |           |  |     |      |        +---criGri1
+                      |  |           |  |     |      |     +--| (33.4)
+                      |  |           |  |     |      |     |  +----mesAur1
+                      |  |           |  |     |      |  +--| (34.6)
+                      |  |           |  |     |      |  |  +--------micOch1
+                      |  |           |  |     |      +--| (34.4)
+                      |  |           |  |     |         +-------perManBai1
+                      |  |           |  |  +--| (32.2)
+                      |  |           |  |  |  +----------nanGal1
+                      |  |           |  +--| (35.7)
+                      |  |           |     +---------------jacJac1
+                      |  |        +--| (33.8)
+                      |  |        |  |           +-----HLfukDam1
+                      |  |        |  |        +--| (33.9)
+                      |  |        |  |        |  +----hetGla2
+                      |  |        |  +--------| (36.8)
+                      |  |        |           |  +---------cavPor3
+                      |  |        |           +--| (35.2)
+                      |  |        |              |  +------chiLan1
+                      |  |        |              +--| (33)
+                      |  |        |                 +---------octDeg1
+                      |  |     +--| (31.4)
+                      |  |     |  |          +--HLmarMar1
+                      |  |     |  +----------| (41.9)
+                      |  |     |             +--speTri2
+                      |  |  +--| (43.5)
+                      |  |  |  |        +----------------ochPri3
+                      |  |  |  +--------| (41.3)
+                      |  |  |           +--------oryCun2
+                      |  +--| (32.1)
+                      |     |                            +--HLpilTep1
+                      |     |                         +--| (39.7)
+                      |     |                         |  +--colAng1
+                      |     |                      +--| (39)
+                      |     |                      |  |  +--nasLar1
+                      |     |                      |  +--| (34.8)
+                      |     |                      |     |  +--rhiBie1
+                      |     |                      |     +--| (34.9)
+                      |     |                      |        +--rhiRox1
+                      |     |                   +--| (42.8)
+                      |     |                   |  |           +--cerAty1
+                      |     |                   |  |        +--| (39.1)
+                      |     |                   |  |        |  +--manLeu1
+                      |     |                   |  |     +--| (35)
+                      |     |                   |  |     |  +--papAnu3
+                      |     |                   |  |  +--| (34.8)
+                      |     |                   |  |  |  |     +--macFas5
+                      |     |                   |  |  |  |  +--| (37.1)
+                      |     |                   |  |  |  |  |  +--rheMac8
+                      |     |                   |  |  |  +--| (37.2)
+                      |     |                   |  |  |     +--macNem1
+                      |     |                   |  +--| (34.5)
+                      |     |                   |     +--chlSab2
+                      |     |                +--| (46.8)
+                      |     |                |  |        +--gorGor5
+                      |     |                |  |     +--| (37.7)
+                      |     |                |  |     |  |  +--hg38
+                      |     |                |  |     |  +--| (33.2)
+                      |     |                |  |     |     |  +--panPan2
+                      |     |                |  |     |     +--| (47.9)
+                      |     |                |  |     |        +--panTro5
+                      |     |                |  |  +--| (27.6)
+                      |     |                |  |  |  +--ponAbe2
+                      |     |                |  +--| (38.3)
+                      |     |                |     +--nomLeu3
+                      |     |           +----| (40.3)
+                      |     |           |    |     +--aotNan1
+                      |     |           |    |  +--| (33.6)
+                      |     |           |    |  |  +--calJac3
+                      |     |           |    +--| (44.6)
+                      |     |           |       |  +--cebCap1
+                      |     |           |       +--| (36.2)
+                      |     |           |          +--saiBol1
+                      |     |        +--| (32.7)
+                      |     |        |  +-----------tarSyr2
+                      |     |     +--| (32.4)
+                      |     |     |  |     +---micMur3
+                      |     |     |  |  +--| (35)
+                      |     |     |  |  |  +--proCoq1
+                      |     |     |  +--| (43.8)
+                      |     |     |     +----------otoGar3
+                      |     |  +--| (31.2)
+                      |     |  |  +--------galVar1
+                      |     +--| (28.6)
+                      |        +---------------tupChi1
++---------------------| (44.1)
+|                     |      +-------HLchoHof2
+|                     |  +---| (34.5)
+|                     |  |   +--------dasNov3
+|                     +--| (31.1)
+|                        |      +-------------HLproCap2
+|                        |   +--| (32.8)
+|                        |   |  |  +------loxAfr3
+|                        |   |  +--| (33.7)
+|                        |   |     +----triMan1
+|                        +---| (37.6)
+|                            |        +-----------chrAsi1
+|                            |     +--| (32.7)
+|                            |     |  +-------------------echTel2
+|                            |  +--| (34)
+|                            |  |  +-----------------eleEdw1
+|                            +--| (38.8)
+|                               +---------oryAfe1
+|
+|                      +------HLphaCin1
+|                   +--| (33.2)
+|                   |  +----------sarHar1
++-------------------| (33.5)
+|                   +----------monDom5
+|
++-----------------------------------------------ornAna2
+
+Tree in newick format:
+
+(((((((((((HLaciJub1:0.0090206600,felCat8:0.0076931200)33.5:0.0032058700,(HLpanPar1:0.0037246300,panTig1:0.0041451400)34.8:0.0061264100)43.2:0.0786428000,(((HLailFul1:0.0517652000,(HLenhLut1:0.0231832000,musFur1:0.0298119000)36.8:0.0455244000)37.8:0.0221680000,((ailMel1:0.0199780000,ursMar1:0.0186893000)39.6:0.0421556000,((lepWed1:0.0076147600,neoSch1:0.0076826600)32.9:0.0162872000,odoRosDiv1:0.0250196000)33.4:0.0270043000)31.5:0.0029390000)32.9:0.0216094000,(HLlycPic1:0.0041951700,canFam3:0.0035645600)43.1:0.0864189000)31.6:0.0203793000)37.1:0.0460411000,(HLmanJav1:0.0210289000,manPen1:0.0188982000)43.3:0.1212490000)34.4:0.0089425500,((HLequAsi1:0.0065022400,(HLequCab3:0.0013255300,equPrz1:0.0017445500)32.3:0.0058321800)36.9:0.0708038000,cerSim1:0.0602516000)36.4:0.0346388000)31.5:0.0034745700,((HLdesRot1:0.1241500000,(HLminNat1:0.0928581000,(eptFus1:0.0395587000,((myoBra1:0.0101481000,myoLuc2:0.0119921000)33.5:0.0052802900,myoDav1:0.0276709000)33.5:0.0233769000)35:0.0632732000)34:0.0222287000)37.5:0.0325220000,((HLhipArm1:0.0649726000,HLrhiSin1:0.0670660000)34.6:0.0425411000,((HLpteVam2:0.0071816500,pteAle1:0.0070156800)34.3:0.0255344000,rouAeg1:0.0466478000)38:0.0786026000)33.7:0.0119892000)43.6:0.0306315000)31.7:0.0033823400,(((((HLbalMys1:0.0086002200,balAcu1:0.0131841000)37.2:0.0068499900,(((HLdelLeu1:0.0104735000,(HLorcOrc1:0.0051244900,HLturTru3:0.0060017700)33.5:0.0062747400)34.3:0.0050424500,lipVex1:0.0171486000)36.4:0.0075327300,phyCat1:0.0207939000)32.6:0.0028160700)34.5:0.0407596000,(((((HLbosInd1:0.0015686000,bosTau8:0.0022065800)33.6:0.0031806700,(bisBis1:0.0048737200,bosMut1:0.0045997300)34.3:0.0014821900)34.1:0.0133521000,bubBub1:0.0177233000)34.5:0.0141777000,((HLcapHir2:0.0112809000,(HLoviAri4:0.0034321900,HLoviCan1:0.0041134900)34.1:0.0099122600)32.9:0.0056257600,panHod1:0.0173717000)34.4:0.0203037000)33.6:0.0120173000,(HLcerEla1:0.0215827000,HLodoVir1:0.0246456000)34.9:0.0236784000)41.9:0.0880296000)31.5:0.0179655000,susScr11:0.1198790000)31.1:0.0110188000,(((HLcamBac1:0.0012752700,HLcamFer2:0.0013257900)33.6:0.0020363600,HLcamDro1:0.0027605500)34.9:0.0125037000,vicPac2:0.0158348000)43.1:0.0938827000)39.1:0.0412296000)31.8:0.0106427000,(conCri1:0.1745990000,eriEur2:0.2646364000)50.5:0.0383293000)30.4:0.0217451000,((((((HLcasCan1:0.1225380000,HLdipOrd2:0.2080830000)33.8:0.0217416000,((((HLmerUng1:0.1258920000,(((HLmusCar1:0.0221509000,mm10:0.0222848000)33.2:0.0227195000,HLmusPah1:0.0427608000)34.1:0.0444039000,rn6:0.0890207000)36.4:0.0523501000)33:0.0168208000,(((criGri1:0.0534464000,mesAur1:0.0656335000)33.4:0.0357301000,micOch1:0.1072720000)34.6:0.0055293500,perManBai1:0.0963569000)34.4:0.0268366000)33.6:0.0856326000,nanGal1:0.1328700000)32.2:0.0387555000,jacJac1:0.1908890000)35.7:0.0409814000)36:0.0183931000,((HLfukDam1:0.0798923000,hetGla2:0.0617669000)33.9:0.0335527000,(cavPor3:0.1185000000,(chiLan1:0.0808714000,octDeg1:0.1192100000)33:0.0147769000)35.2:0.0243347000)36.8:0.1054720000)33.8:0.0064721000,(HLmarMar1:0.0148980000,speTri2:0.0189779000)41.9:0.1284150000)31.4:0.0261529000,(ochPri3:0.1967380000,oryCun2:0.1098570000)41.3:0.1053650000)43.5:0.0126130000,(((((((((HLpilTep1:0.0098782900,colAng1:0.0097792900)39.7:0.0026592800,(nasLar1:0.0070694200,(rhiBie1:0.0021572800,rhiRox1:0.0019413200)34.9:0.0042924000)34.8:0.0056779100)39:0.0061976100,((((cerAty1:0.0054539500,manLeu1:0.0054512400)39.1:0.0013231300,papAnu3:0.0063388100)35:0.0013421400,((macFas5:0.0017371000,rheMac8:0.0024280400)37.1:0.0012155500,macNem1:0.0034542100)37.2:0.0042580000)34.8:0.0037375400,chlSab2:0.0121756000)34.5:0.0053903700)42.8:0.0210316000,(((gorGor5:0.0083814900,(hg38:0.0062070100,(panPan2:0.0021553200,panTro5:0.0019500000)47.9:0.0042634100)33.2:0.0020432200)37.7:0.0090748700,ponAbe2:0.0180992000)27.6:0.0031438600,nomLeu3:0.0211089000)38.3:0.0106897000)46.8:0.0198540000,((aotNan1:0.0224995000,calJac3:0.0338501000)33.6:0.0016146900,(cebCap1:0.0250090000,saiBol1:0.0291940000)36.2:0.0038027100)44.6:0.0369747000)40.3:0.0590031000,tarSyr2:0.1403010000)32.7:0.0111117000,((micMur3:0.0559621000,proCoq1:0.0397304000)35:0.0366836000,otoGar3:0.1278490000)43.8:0.0334143000)32.4:0.0140916000,galVar1:0.1075720000)31.2:0.0047506700,tupChi1:0.1890360000)28.6:0.0033403200)32.1:0.0203135000)40.8:0.0210258000,((HLchoHof2:0.0925125000,dasNov3:0.1095280000)34.5:0.0556524000,((HLproCap2:0.1599120000,(loxAfr3:0.0814739000,triMan1:0.0660570000)33.7:0.0081852100)32.8:0.0225157000,(((chrAsi1:0.1443070000,echTel2:0.2339990000)32.7:0.0154948000,eleEdw1:0.2115340000)34:0.0078497500,oryAfe1:0.1166570000)38.8:0.0069386900)37.6:0.0551330000)31.1:0.0063275900)44.1:0.2560210000,((HLphaCin1:0.0860085000,sarHar1:0.1267570000)33.2:0.0322988000,monDom5:0.1292200000)33.5:0.2287070000,ornAna2:0.5574740000);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t scfl_jc.treefile -m "JC" --length 1023883
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ../data/alignment.phylip --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ../data/alignment.phylip --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Mar 24 01:43:18 2023
+Total CPU time used: 1.388507 seconds (0h:0m:1s)
+Total wall-clock time used: 2960.62756 seconds (0h:49m:20s)
+
