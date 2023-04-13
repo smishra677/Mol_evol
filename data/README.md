@@ -27,6 +27,11 @@ To analysis the data, [IQTREE-2](http://www.iqtree.org/doc/) is used
   (not completely corret yet. NEED TO MODIFY name of taxon `Homo sapiens -> hg38`. Try hg38 -> genome assembly id -> add keywords into query)
   * Find overlapped tRNA genes in nuclear genome in **all speecies** based on previous tRNA gene set. with the same function or just randomly sampled?
   * Get alignment   
-  Two options to aligned the tRNA genes: 1. used aligned primate genome, cropping based on annotations from reference genome. 2. aligned sets from previous steps
-  * calculate dK/dS with [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html) or `FEL` in [HyPhy](https://stevenweaver.github.io/hyphy-site/methods/selection-methods/#fel)
+  Two options to aligned the tRNA genes:  
+  1. used aligned primate genome, cropping based on annotations from reference genome.  
+  2. aligned coding regions of genes from previous steps with codon aligner
+  * calculate dK/dS with [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html) or `FEL` in [HyPhy](https://stevenweaver.github.io/hyphy-site/methods/selection-methods/#fel)  
+  
+  - example usage of PAML, check `Exercise 1: ML estimation of the dN/dS (ω) ratio by hand`[link](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6/).
+  - possible useful exmaple of HyPhy [link](http://hyphy.org/methods/other/contrast-fel/). Note that we want absolute *dN* and *dS*, not only the ratio. 
   
