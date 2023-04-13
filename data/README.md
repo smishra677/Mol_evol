@@ -28,5 +28,5 @@ To analysis the data, [IQTREE-2](http://www.iqtree.org/doc/) is used
   * Find overlapped tRNA genes in nuclear genome in **all speecies** based on previous tRNA gene set. with the same function or just randomly sampled?
   * Get alignment   
   Two options to aligned the tRNA genes: 1. used aligned primate genome, cropping based on annotations from reference genome. 2. aligned sets from previous steps
-  * calculate dK/dS with [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
+  * calculate dK/dS with [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html) or `FEL` in [HyPhy](https://stevenweaver.github.io/hyphy-site/methods/selection-methods/#fel)
   
