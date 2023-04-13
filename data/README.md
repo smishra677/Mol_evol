@@ -21,17 +21,24 @@ To analysis the data, [IQTREE-2](http://www.iqtree.org/doc/) is used
  - attach sCF filtering result
  -
 # To-dos
-  * Find overlapped tRNA genes in mt in **all species**.  
-  example query in [NCBI](https://www.ncbi.nlm.nih.gov/gene/):  
-  `genetype trna[Properties] AND source mitochondrion[Properties] AND "annotated genes"[Filter] AND "Homo sapiens"[porgn] AND ("annotated genes"[Filter] AND alive[prop])`  
-  (not completely corret yet. NEED TO MODIFY name of taxon `Homo sapiens -> hg38`. Try hg38 -> genome assembly id -> add keywords into query)
-  * Find overlapped tRNA genes in nuclear genome in **all speecies** based on previous tRNA gene set. with the same function or just randomly sampled?
-  * Get alignment   
-  Two options to aligned the tRNA genes:  
-  1. used aligned primate genome, cropping based on annotations from reference genome.  
-  2. aligned coding regions of genes from previous steps with codon aligner
-  * calculate dK/dS with [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html) or `FEL` in [HyPhy](https://stevenweaver.github.io/hyphy-site/methods/selection-methods/#fel)  
+  ## Find tRNA genes in mt and nuclear genome.  
+  used aligned primate genome, cropping based on annotations from reference genome (hg38)  
+      1. Find the coordinates in annotation files of tRNAs for hg38. There should be ~22 for mt and ~500 for nuclear genome.  
+      2. Find the coordinates of coding region in mt and nuclear [annotations](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/multiz30way/alignments/)(`knownCanonical.protNuc.fa.gz`)
+      
+  ## estimate divergence
+  Given a topology (use [phylogeny](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/multiz30way/) in .nh file extracted remaining taxa),
+  1. For tRNA, use nuclieotide substition model - Kimura (K80) - to estimate the **total branch lengths** of input alignment (PAML or IQ-Tree would be fine) 
+  2. For coding region, use codon substition model to estimate the **total branch lengths** of input alignment (**HyPhy only**)
+  3. useful tutorials:  
+  calculate dK/dS with [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html) or `FEL` in [HyPhy](https://stevenweaver.github.io/hyphy-site/methods/selection-methods/#fel)  
+  example usage of PAML, check `Exercise 1: ML estimation of the dN/dS (ω) ratio by hand`[link](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6/).  
+  exmaple of HyPhy [link](http://hyphy.org/methods/other/contrast-fel/). Note that we want **absolute dN and dS, not the ratio**. 
+
+ # query example
+ example query in [NCBI](https://www.ncbi.nlm.nih.gov/gene/):  
+ `genetype trna[Properties] AND source mitochondrion[Properties] AND "annotated genes"[Filter] AND "Homo sapiens"[porgn] AND ("annotated genes"[Filter] AND alive[prop])`  
+ (not completely corret yet. NEED TO MODIFY name of taxon `Homo sapiens -> hg38`. Try hg38 -> genome assembly id -> add keywords into query)
+ 
   
-  - example usage of PAML, check `Exercise 1: ML estimation of the dN/dS (ω) ratio by hand`[link](https://isu-molphyl.github.io/EEOB563/computer_labs/lab6/).
-  - possible useful exmaple of HyPhy [link](http://hyphy.org/methods/other/contrast-fel/). Note that we want absolute *dN* and *dS*, not only the ratio. 
   
